@@ -13,7 +13,7 @@ class FirstViewModel : ViewModel() {
     val errorMessage = MutableLiveData<String>()
 
     fun getAllUsers() {
-        //call the repository to trigger the API call through RetrofitService
+      
         userList.value = Utils.populateList()
 
     }
